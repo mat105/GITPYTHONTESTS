@@ -27,13 +27,13 @@ class Calculadora:
         
 
     def __init__(self):
-        self.dale()
+        pass
 
 
 
 def main():
-    Calculadora()
+    Calculadora().dale()
 
 
-
-main()
+if __name__ == '__main__':
+    main()
