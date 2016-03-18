@@ -24,13 +24,13 @@ class Calculadora:
             if(args[0]=="SALIR"):
                 seguir=False
             elif(args[0]=="SUMAR" and len(args) == 3):
-                print( self.sumar( int(args[1]), int(args[2]) ) )
+                print( self.sumar( float(args[1]), float(args[2]) ) )
             elif(args[0]=="RESTAR" and len(args) == 3):
-                print( self.restar( int(args[1]), int(args[2]) ) )
+                print( self.restar( float(args[1]), float(args[2]) ) )
             elif(args[0]=="MULTIPLICAR" and len(args) == 3):
-                print( self.multiplicar( int(args[1]), int(args[2]) ) )
+                print( self.multiplicar( float(args[1]), float(args[2]) ) )
             elif(args[0]=="DIVIDIR" and len(args) == 3):
-                print( self.dividir(args[1]), int(args[2]) )               
+                print( self.dividir( float(args[1]), float(args[2]) ) )               
             else:
                 print("Error, commando/parametros erroneos")
         
